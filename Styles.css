@@ -1,15 +1,5 @@
-h2{
-    color: brown;
-}
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;500&display=swap');
 
 body{
-    color: blueviolet;
-}
-
-#with_id{
-    color: black;
-}
-
-.paragraph{
-    color: hotpink;
+    font-family: 'Ubuntu', sans-serif;
 }
