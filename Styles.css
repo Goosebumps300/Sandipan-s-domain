@@ -58,3 +58,23 @@ hr{
     display: inline;
     margin: 0rem .5rem;
 }
+
+/**navigation**/
+
+.navigation{
+    background-color: var(--primary-color);
+    border-bottom-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    color: white;
+    padding: 1rem;
+}
+
+.navigation .link{
+    color: white;
+}
+
+.navigation-buttons{
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
