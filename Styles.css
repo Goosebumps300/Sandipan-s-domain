@@ -85,10 +85,13 @@ hr{
 
 .head .head-img{
     max-width: 400px;
+    display: block;
+    margin: auto;
 }
 
 .head .head-line{
     color: var(--dark-grey);
+    text-align: center;
 }
 
 .head .head-line .difffrent-color-head{
