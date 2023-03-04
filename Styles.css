@@ -1,0 +1,15 @@
+h2{
+    color: brown;
+}
+
+body{
+    color: blueviolet;
+}
+
+#with_id{
+    color: black;
+}
+
+.paragraph{
+    color: hotpink;
+}
