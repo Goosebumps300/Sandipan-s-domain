@@ -47,3 +47,14 @@ hr{
 }
 
 /**BEM convention css**/
+
+/**lists**/
+
+.non-bullets{
+    list-style: none;
+}
+
+.inline-list{
+    display: inline;
+    margin: 0rem .5rem;
+}
