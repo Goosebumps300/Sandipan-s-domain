@@ -3,6 +3,8 @@
 :root{
     --primary-color: #d1913d;
     --dark-grey: #64748b;
+    --off-white: #e5e5e5;
+    --light-yellow: #fed7aa;
 }
 
 body{
@@ -96,5 +98,24 @@ hr{
 
 .head .head-line .difffrent-color-head{
     color: var(--primary-color);
+}
+
+/**section**/
+
+.section {
+    padding: 1rem;
+}
+
+.section h2{
+    text-align: center;
+}
+
+.section .yellow-section{
+    background-color: var(--off-white);
+    padding: 1rem;
+}
+
+.section .theme-section{
+    padding: 1rem;
 }
 
