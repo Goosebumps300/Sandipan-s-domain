@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;500&display=swap');
 
+:root{
+    --primary-color: #d1913d;
+}
+
 body{
     font-family: 'Ubuntu', sans-serif;
 }
@@ -15,3 +19,27 @@ body{
     max-width: 600px;
     margin: auto;
 }
+
+/** links **/
+
+.link{
+    text-decoration: none;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.primary-link{
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: white;
+}
+
+.secondary-link{
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border: var(--primary-color) solid;
+}
+
+/**BEM convention css**/
