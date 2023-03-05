@@ -147,6 +147,8 @@ hr{
     padding: 2rem 1rem;
     color: var(--off-white);
     text-align: center;
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
 }
 
 .footer ul{
