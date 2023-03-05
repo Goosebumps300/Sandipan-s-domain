@@ -60,6 +60,14 @@ hr{
 .inline-list{
     display: inline;
     margin: 0rem .5rem;
+    background-color: var(--off-white);
+    padding: 1rem 1rem;
+    border-radius: 0.5rem;
+}
+
+.inline-list-nav{
+    display: inline;
+    margin: 0rem 0.5rem;
 }
 
 /**navigation**/
@@ -113,9 +121,24 @@ hr{
 .section .yellow-section{
     background-color: var(--off-white);
     padding: 1rem;
+    border-radius: 1rem;
+    max-width: 400px;
+    margin: auto;
+}
+
+.section .yellow-section h2{
+    color: var(--primary-color);
+}
+
+.section .theme-section h2{
+    color: var(--off-white);
 }
 
 .section .theme-section{
+    background-color: var(--primary-color);
     padding: 1rem;
+    border-radius: 1rem;
+    max-width: 400px;
+    margin: auto;
 }
 
