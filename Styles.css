@@ -9,6 +9,7 @@
 
 body{
     font-family: 'Ubuntu', sans-serif;
+    margin: 0px;
 }
 
 
@@ -102,6 +103,7 @@ hr{
 .head .head-line{
     color: var(--dark-grey);
     text-align: center;
+    padding: 1rem;
 }
 
 .head .head-line .difffrent-color-head{
@@ -147,8 +149,6 @@ hr{
     padding: 2rem 1rem;
     color: var(--off-white);
     text-align: center;
-    border-top-right-radius: 1rem;
-    border-bottom-left-radius: 1rem;
 }
 
 .footer ul{
