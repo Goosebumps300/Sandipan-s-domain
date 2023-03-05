@@ -142,3 +142,17 @@ hr{
     margin: auto;
 }
 
+.footer{
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    color: var(--off-white);
+    text-align: center;
+}
+
+.footer ul{
+    padding-inline-start: 0px;
+}
+
+.footer .link{
+    color: var(--off-white);
+}
