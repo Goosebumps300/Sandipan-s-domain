@@ -95,7 +95,7 @@ hr{
 }
 
 .head .head-img{
-    max-width: 400px;
+    max-width: 500px;
     display: block;
     margin: auto;
 }
@@ -124,7 +124,7 @@ hr{
     background-color: var(--off-white);
     padding: 1rem;
     border-radius: 1rem;
-    max-width: 400px;
+    max-width: 500px;
     margin: auto;
 }
 
@@ -140,7 +140,7 @@ hr{
     background-color: var(--primary-color);
     padding: 1rem;
     border-radius: 1rem;
-    max-width: 400px;
+    max-width: 500px;
     margin: auto;
 }
 
