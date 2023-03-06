@@ -19,14 +19,18 @@ hr{
 /** container**/
 
 .container{
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding: 1rem 1rem;
 }
 
 .container-center{
     max-width: 600px;
     margin: auto;
     padding: 1rem;
+    background-color: var(--primary-color);
+}
+
+.container-left{
+    background-color: var(--off-white);
 }
 
 /** links **/
