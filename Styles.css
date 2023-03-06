@@ -26,6 +26,7 @@ hr{
 .container-center{
     max-width: 600px;
     margin: auto;
+    padding: 1rem;
 }
 
 /** links **/
@@ -62,8 +63,15 @@ hr{
     display: inline;
     margin: 0rem .5rem;
     background-color: var(--off-white);
-    padding: 1rem 1rem;
+    padding: 1rem;
     border-radius: 0.5rem;
+    border: 2px solid var(--primary-color)
+    
+}
+
+.list{
+    padding-inline-start: 0px;
+    padding: auto;
 }
 
 .inline-list-nav{
