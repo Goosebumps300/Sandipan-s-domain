@@ -26,13 +26,20 @@ hr{
     max-width: 600px;
     margin: auto;
     padding: 1rem;
-    background-color: var(--primary-color);
 }
 
 .container-left{
     background-color: var(--off-white);
 }
 
+/** header colour **/
+.primary-colour{
+    color: var(--primary-color);
+}
+
+.dark-grey-colour{
+    color: var(--dark-grey);
+}
 /** links **/
 
 .link{
@@ -53,6 +60,12 @@ hr{
     color: var(--primary-color);
     border-radius: 0.5rem;
     border: 1px solid var(--primary-color);
+}
+.red-link{
+    color: var(--primary-color);
+    padding-left: 0 rem;
+    text-decoration: none;
+    padding-right: 1rem;
 }
 
 /**BEM convention css**/
