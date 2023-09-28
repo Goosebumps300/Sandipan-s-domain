@@ -40,6 +40,10 @@ hr{
 .dark-grey-colour{
     color: var(--dark-grey);
 }
+
+.off-white-colour{
+    color: var(--off-white);
+}
 /** links **/
 
 .link{
@@ -56,11 +60,22 @@ hr{
     border: 1px solid var(--off-white);
 }
 
+.primary-link:hover{
+    color: var(--dark-grey);
+    border-color: var(--dark-grey);
+}
+
 .secondary-link{
     color: var(--primary-color);
     border-radius: 0.5rem;
     border: 1px solid var(--primary-color);
 }
+
+.secondary-link:hover{
+    color: var(--dark-grey);
+    border-color: var(--dark-grey);
+}
+
 .red-link{
     color: var(--primary-color);
     padding-left: 0 rem;
@@ -108,6 +123,10 @@ hr{
 
 .navigation .link{
     color: white;
+}
+
+.navigation .link:hover{
+    color: var(--dark-grey);
 }
 
 .navigation-buttons{
@@ -188,6 +207,10 @@ hr{
 
 .footer .link{
     color: white;
+}
+
+.footer .link:hover{
+    color: var(--dark-grey);
 }
 
 .blogs{
