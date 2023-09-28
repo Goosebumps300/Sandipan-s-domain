@@ -83,6 +83,10 @@ hr{
     padding-right: 1rem;
 }
 
+.red-link:hover{
+    color: var(--dark-grey);
+}
+
 /**BEM convention css**/
 
 /**lists**/
